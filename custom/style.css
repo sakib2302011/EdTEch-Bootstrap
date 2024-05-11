@@ -1,0 +1,47 @@
+.btn-custom-primary {
+    --bs-btn-color: #289BDE;
+    --bs-btn-border-color: #289BDE;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #289BDE;
+    --bs-btn-hover-border-color: #289BDE;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #289BDE;
+    --bs-btn-active-border-color: #289BDE;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #289BDE;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #289BDE;
+    --bs-gradient: none;
+}
+.btn-custom-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #289BDE;
+    --bs-btn-border-color: #289BDE;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #289BDE;
+    --bs-btn-hover-border-color: #289BDE;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #289BDE;
+    --bs-btn-active-border-color: #289BDE;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #289BDE;
+    --bs-btn-disabled-border-color: #289BDE;
+}
+.nav-link-custom {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    margin: 0 25px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+}
